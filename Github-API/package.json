@@ -1,0 +1,19 @@
+{
+  "name": "github-profile-finder",
+  "version": "1.0.0",
+  "description": "It will find your github profile and display some of the information",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Sohail Haqyar",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "chalk": "^5.0.0",
+    "figlet": "^1.5.2",
+    "ora": "^6.0.1"
+  }
+}

@@ -1,0 +1,90 @@
+/* Style todos */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  color: #f8f8f2;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100%;
+  background: #282a36;
+}
+
+.todosContainer {
+  width: 55%;
+  padding: 18px 24px;
+}
+
+.todosContainer h2 {
+  font-size: 34px;
+  margin-bottom: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.todo {
+  margin-bottom: 20px;
+  background: #44475a;
+  display: flex;
+  min-height: 80px;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.todo__delete {
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+}
+.todo__delete button:hover {
+  color: #ff5555;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #50fa7b;
+}
+
+.icon-btn {
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters button {
+  background: #f1fa8c;
+  border: none;
+  padding: 12px 18px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+}
+.filters button:hover {
+  background: #8be9fd;
+}
